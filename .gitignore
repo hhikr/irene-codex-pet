@@ -1,0 +1,24 @@
+# 协作、研究与本机安装记录
+agent.md
+AGENTS.md
+CLAUDE.md
+docs/独立版本评估.md
+docs/开源复用清单.md
+research/
+codex-installation.json
+pet-record.json
+uninstalled-old-versions/
+
+# 个人令牌和本机文件
+pat*.txt
+*.env
+.env*
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# 本地预览之外的大型历史交付物
+*.zip
+run/
+dist/

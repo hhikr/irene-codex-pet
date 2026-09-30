@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "sha256": "d1ebd455728a033fd0aed64e7ec3536e56ab71143a0b4bfb6f7a2e333c084fb0",
+  "format": "PNG",
+  "mode": "RGBA",
+  "columns": 8,
+  "rows": 11,
+  "sprite_version_number": 2,
+  "width": 1536,
+  "height": 2288,
+  "transparent_rgb_residue_pixels": 0,
+  "errors": [],
+  "warnings": [],
+  "file": "assets/native/walk.png"
+}

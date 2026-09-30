@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>艾丽妮 · 提灯审阅员</title>
+<style>
+:root{color-scheme:dark;font-family:"Microsoft YaHei",system-ui,sans-serif;background:#191a22;color:#f2eee9}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:28px}main{width:min(960px,100%)}.eyebrow{font-size:12px;color:#c68c9f;letter-spacing:3px}h1{font-size:32px;margin:10px 0 12px;font-weight:600}p{color:#b9b5c0;line-height:1.8;margin:0 0 22px}.panel{border:1px solid #41404d;background:#23242d;border-radius:24px;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:28px}.stage{min-height:400px;border-radius:18px;background:radial-gradient(ellipse at 50% 40%,#55505b,#302f3b 65%);display:flex;flex-direction:column;align-items:center;justify-content:center}canvas{width:288px;height:312px;image-rendering:auto}#status{color:#e6b3c3;font-size:14px;margin:16px 0}.buttons{display:grid;grid-template-columns:1fr 1fr;gap:9px}button{font:inherit;border:1px solid #57515f;background:#34323e;color:#e7e0e7;border-radius:10px;padding:12px;cursor:pointer}button:hover,button.active{background:#725363;border-color:#c58b9f}#sequence{width:100%;margin-top:18px;background:#bc7f96;color:#171820;font-weight:600}.control{display:flex;gap:12px;align-items:center;margin-top:16px;color:#b9b5c0;font-size:13px}.caption{font-size:13px;margin-top:18px}.links{display:flex;gap:18px;margin-top:20px;flex-wrap:wrap}a{color:#d8a5b8;font-size:13px}#error{color:#efbd99}@media(max-width:650px){.panel{grid-template-columns:1fr}.stage{min-height:330px}h1{font-size:27px}}
+</style>
+<main>
+<div class="eyebrow">ARKNIGHTS × CODEX</div>
+<h1>艾丽妮 · 提灯审阅员</h1>
+<p>提灯照亮下一步，认真查看每一项结果。选择工作状态，查看对应动作。</p>
+<div class="panel">
+ <div class="stage"><canvas id="pet" width="192" height="208"></canvas><div id="status">准备素材</div></div>
+ <div>
+  <div class="buttons" id="buttons"></div>
+  <button id="sequence">演示：思考 → 等待 → 审阅 → 完成</button>
+  <div class="control"><label><input type="checkbox" id="pause"> 暂停</label><label>速度 <select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select></label></div>
+  <div class="control"><label>画质 <select id="quality"><option value="hd" selected>高清原始素材</option><option value="native">Codex 宠物尺寸</option><option value="before">旧版对比</option></select></label></div>
+  <div class="control"><label>移动 <select id="movement"><option value="walk" selected>慢走</option><option value="run">原跑步</option></select></label></div>
+  <div class="control"><label>播放 <select id="playback"><option value="codex" selected>Codex 宿主节奏</option><option value="web">连续循环</option></select></label></div>
+  <div class="control"><label><input type="checkbox" id="follow" checked> 跟随指针</label></div>
+  <p class="caption">默认慢走；待机保持睁眼，悬停轻微提灯。宿主节奏保留 Codex 的慢放、重复和视线静止行为，连续循环用于查看素材。</p>
+  <div id="error"></div>
+ </div>
+</div>
+<div class="links"><a href="assets/previews/hover.webp">提灯回应</a><a href="assets/previews/idle-host.gif">宿主待机节奏</a><a href="assets/native/walk.png">第四版图集</a><a href="第四版使用说明.md">安装说明</a></div>
+</main>
+<script src="preview-player.js"></script>
+</html>
