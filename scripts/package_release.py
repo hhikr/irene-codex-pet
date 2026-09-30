@@ -7,7 +7,7 @@ import pathlib
 import zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-VERSION = "v4.0.0"
+VERSION = "v1.0.0"
 ZIP_NAME = f"Irene-Codex-Pet-{VERSION}.zip"
 INCLUDED_ROOT_FILES = (
     "LICENSE",
