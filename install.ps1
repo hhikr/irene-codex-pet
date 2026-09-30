@@ -1,4 +1,4 @@
-param([ValidateSet('walk','run')][string]$Movement='walk')
+﻿param([ValidateSet('walk','run')][string]$Movement='walk')
 $ErrorActionPreference='Stop'
 $source=Join-Path $PSScriptRoot "assets/native/$Movement.png"
 $validation=Get-Content -LiteralPath (Join-Path $PSScriptRoot "assets/native/$Movement-validation.json") -Raw | ConvertFrom-Json

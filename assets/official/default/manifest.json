@@ -1,0 +1,89 @@
+{
+  "skin": "default",
+  "spine_version": "3.8.99",
+  "render_canvas": [
+    768,
+    832
+  ],
+  "crop": [
+    110,
+    183,
+    587,
+    803
+  ],
+  "states": [
+    {
+      "row": 0,
+      "frames": 6,
+      "source": "Relax (open-eye segment)"
+    },
+    {
+      "row": 1,
+      "frames": 8,
+      "source": "Move"
+    },
+    {
+      "row": 2,
+      "frames": 8,
+      "source": "Move mirrored"
+    },
+    {
+      "row": 3,
+      "frames": 4,
+      "source": "Interact segment"
+    },
+    {
+      "row": 4,
+      "frames": 5,
+      "source": "Interact segment"
+    },
+    {
+      "row": 5,
+      "frames": 8,
+      "source": "Sit"
+    },
+    {
+      "row": 6,
+      "frames": 6,
+      "source": "Sit"
+    },
+    {
+      "row": 7,
+      "frames": 6,
+      "source": "Relax"
+    },
+    {
+      "row": 8,
+      "frames": 6,
+      "source": "Relax"
+    }
+  ],
+  "look": "16 adapted Default poses: head rotation and pupil offset",
+  "previews": {
+    "Default": {
+      "duration": 0,
+      "frames": 1
+    },
+    "Interact": {
+      "duration": 1.8333333730697632,
+      "frames": 37
+    },
+    "Move": {
+      "duration": 2.6666667461395264,
+      "frames": 54
+    },
+    "Relax": {
+      "duration": 8,
+      "frames": 160
+    },
+    "Sit": {
+      "duration": 6,
+      "frames": 120
+    },
+    "Sleep": {
+      "duration": 12,
+      "frames": 240
+    }
+  },
+  "preview_fps": 20
+}

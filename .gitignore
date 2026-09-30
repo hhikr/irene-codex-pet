@@ -22,3 +22,6 @@ Desktop.ini
 *.zip
 run/
 dist/
+node_modules/
+.build/
+__pycache__/

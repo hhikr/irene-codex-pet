@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "sha256": "1682ddddc83948c9a520ebf7e81270f254d0a94721f33274d65533c88e65e621",
+  "size": [
+    1536,
+    2288
+  ],
+  "used_cells": 73,
+  "frame_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "transparent_rgb_zero": true
+}

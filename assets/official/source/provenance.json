@@ -1,0 +1,32 @@
+{
+  "default": {
+    "source_model": "4009_irene",
+    "spine_version": "3.8.99",
+    "original_sha256": {
+      "build_char_4009_irene.skel": "8ac5bd02a5aac8457c82b834c6390b696b67223eedeb94a29555a8cdfae7c867",
+      "build_char_4009_irene.atlas": "581f30e565bc4fa5ed1d9d6bc45c99832906c397e95280a610d369c3e6c4cd83",
+      "build_char_4009_irene.png": "af161d410e056d746bc8495860f6ccc02d6796274707c50e4d307ab0e3d05473"
+    },
+    "atlas_change": "texture page renamed to model.png"
+  },
+  "synesthesia": {
+    "source_model": "4009_irene_ambiencesynesthesia#3",
+    "spine_version": "3.8.99",
+    "original_sha256": {
+      "build_char_4009_irene_ambiencesynesthesia#3.skel": "41afd3ada714b1e94668ab9e287641ec95f0d619756f518af3d4603286b3e763",
+      "build_char_4009_irene_ambiencesynesthesia#3.atlas": "e3cd842a9213c5b48e4cb3e2cf1f3a095c0f3b1f63501066ade6e97a6eb39cb5",
+      "build_char_4009_irene_ambiencesynesthesia#3.png": "7b6ae10797c5b476fb5de4e6a453b82679672b2ad9e7df075e320f899838f7e0"
+    },
+    "atlas_change": "texture page renamed to model.png"
+  },
+  "game": {
+    "source_model": "4009_irene_game#3",
+    "spine_version": "3.8.99",
+    "original_sha256": {
+      "build_char_4009_irene_game#3.skel": "f0bc2c651d8c6a99f9528daf7e258bcf9a9eb112748cb291a5140fac627c5ebd",
+      "build_char_4009_irene_game#3.atlas": "b27589a4d66b621b4a89b8d0e9c6cec92841f73575ddeb065a4805f113f2e40b",
+      "build_char_4009_irene_game#3.png": "074ae5b943b2f640a0db67ef7468111c7995ccf1f519ccf4dea0fd46439fc06b"
+    },
+    "atlas_change": "texture page renamed to model.png"
+  }
+}
